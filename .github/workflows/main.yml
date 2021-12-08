@@ -2,7 +2,7 @@ name: auto sign
 
 on:
   schedule:
-    - cron: '0 16 * * *' # 每天在国际标准时间16点（北京时间凌晨0点）运行
+    - cron: '0 17 * * *' # 每天在国际标准时间16点（北京时间凌晨0点）运行
   workflow_dispatch: # 手动运行工作流程
 
 jobs:
